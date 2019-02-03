@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 plt.plot([2035,2030,2025,2020,2019,2015,2010,2005,2000,1995,1990,1985,1980,1975,1970,1965,1960,1955,1950],
          [19564170,17583604,15845219,14850066,14755186,14422670,14002798,13595152,13097153,11992194,10974177,
           10003665,9100166,8165629,7329372,6589384,5910210,5219086,4604143],'-.')
-plt.title("Population of Kolkata",size=25,color='blue')
+plt.title("Population Graph",size=25,color='blue')
 #Putting a variable to initialize the fonts
 font = {'family': 'serif','color':  'darkred','weight': 'normal'}
 #use font dictionary "fontdict" function to change the fonts ...note that you could have added the size inside the font variable
